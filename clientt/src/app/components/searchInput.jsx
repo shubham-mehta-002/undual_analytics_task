@@ -10,7 +10,7 @@ export default function SearchInput() {
     dispatch(setSearchInput(e.target.value.trim()));
   }
   return (
-    <div className="flex items-center justify-center mb-4 mx-auto">
+    <div className="flex items-center justify-center mt-6 mb-2 mx-auto">
       <div className="wrapper min-w-[80vw] sm:min-w-[60vw] max-w-[400px] relative">
         <input
           type="text"
