@@ -7,7 +7,7 @@ export default function SearchInput() {
     const dispatch = useAppDispatch()
     const searchInput = useAppSelector(selectSearchInput)
   function searchInputHandler(e) {
-    dispatch(setSearchInput(e.target.value.trim()));
+    dispatch(setSearchInput(e.target.value));
   }
   return (
     <div className="flex items-center justify-center mt-6 mb-2 mx-auto">
