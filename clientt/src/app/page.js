@@ -14,8 +14,8 @@ export default function Home() {
     <div>
       <div className="px-2 w-full md:mx-auto  md:w-[90%]  bg-white mx-auto ">
         {/* header */}
-        <div className="header mt-[60px] h-[80px] flex flex-row items-center justify-between gap-10 relative">
-          <div className="w-[50%] text-4xl font-bold text-left">
+        <div className="header mt-[30px] h-[80px] flex flex-row items-center justify-between gap-10 relative">
+          <div className="w-[50%] text-5xl font-bold text-left ml-4 sm:ml-0">
             All Products
           </div>
           <div className="flex flex-row items-center gap-2 cursor-pointer">
@@ -28,11 +28,11 @@ export default function Home() {
           </div>
           
         </div>
-        <hr className="text-[#E5E7EB]" />
+        <hr className="text-[#E5E7EB] my-2" />
         <SearchInput/>
 
 
-        <div className="mt-20 products-wrappper flex flex-row  gap-10 relative">
+        <div className="mt-20 products-wrappper flex flex-row  relative">
           <Categories
             showCategoriesMenuInMobile = {showCategoriesMenuInMobile}
             setShowCategoriesMenuInMobile={setShowCategoriesMenuInMobile}
