@@ -3,7 +3,9 @@ const app = express()
 require("dotenv").config()
 
 const cors = require('cors')
-app.use(cors())
+app.use(cors({
+    origin:"https://undual-analytics-task.vercel.app/"
+}))
 
 const PORT = process.env.PORT || 5000
 
