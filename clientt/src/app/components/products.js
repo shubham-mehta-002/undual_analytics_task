@@ -26,8 +26,7 @@ export default function Products() {
         let queryString = "";
         if (searchCategories.length) {
           queryString = searchCategories
-            .map((category) => `category=${category}`)
-            .join("&");
+            .map((category) => `category=${category}&`)
         }
 
         if (searchInput.trim() !== "") {
