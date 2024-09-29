@@ -1,1 +1,1 @@
-export const BASE_URI = 'http://localhost:4000'
+export const BASE_URI = 'https://undual-analytics-task.onrender.com/'
